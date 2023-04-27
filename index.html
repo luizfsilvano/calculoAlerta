@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Alerta</title>
+
+    <link href='https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/ui-lightness/jquery-ui.css'rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+</head>
+<body id="black">
+
+    <span class="dark-mode"></span>
+    <header>
+
+    </header>
+
+    
+    <main>
+        <div class="card" id="card">
+        <div class="tools">
+          <div class="circle">
+            <span class="red box"></span>
+          </div>
+          <div class="circle">
+            <span class="yellow box"></span>
+          </div>
+          <div class="circle">
+            <span class="green box"></span>
+          </div>
+        </div>
+        <div class="card__content">
+            <center class="calcu">
+                <h1>CALCULADORA ADFORCE</h1> 
+                  Data Inicial:
+                <input class="input" type="text" id="my_date_picker1"> 
+                  Data Final:
+                <input class="input" type="text" id="my_date_picker2">
+                  Data Atual:
+                <input class="input"type="text" id="my_date_picker3">
+
+                Numero Contratado:
+            <input class="input" type="number" id="contratados">
+                Numero Entregue:
+            <input class="input" type="number" id="entregues">
+
+                <button class="calcular">
+                    <span class="transition"></span>
+                    <span class="gradient"></span>
+                    <span class="label">CALCULAR</span>
+                  </button>
+            </center>
+        </div>
+      </div>
+        <div class="container">
+            <div class="toggle">
+              <input type="checkbox" id="button">
+              <span class="button" id="button"></span>
+              <span class="label">☼</span>
+              <span class="light-mode"></span>
+            </div>
+          </div>
+        
+    </main>
+
+
+    <footer>
+
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
