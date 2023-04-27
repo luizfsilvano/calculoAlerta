@@ -47,9 +47,13 @@ $('.calcular').on('click', function() {
     const diasPassados = (actualDate - startDate) / (1000 * 60 * 60 * 24) +1;
     const objetivo = media * diasPassados;
     const entreguesAcumulados = entregues - objetivo;
+    let textarea = document.getElementById('email');
+    let modeloEmail = `Boa tarde a todos!, \n\nVerificamos em nosso dashboard que as entregas estão abaixo do contratado. Poderiam, por gentileza, verificar? \n\nQualquer dúvida estou a disposição,\nAbs.`;
     
     if (objetivo > entregues) {
         alert(`Você está abaixo da média de entregas. Média: ${media}, Objetivo ${objetivo}`);
+        textarea.innerHTML = modeloEmail;
+
     } else {
         alert(`Você está acima da média de entregas. Média: ${media}, Objetivo: ${objetivo}`);
     }
@@ -58,6 +62,15 @@ $('.calcular').on('click', function() {
     $('#contratados').val('');
     $('#entregues').val('');
 });
+
+
+async function clipboardCopy() {
+    let text = document.querySelector("#email").value;
+    await navigator.clipboard.writeText(text);
+  }
+  
+  document.getElementById('copy').addEventListener('click', clipboardCopy);
+  
 
 
 
