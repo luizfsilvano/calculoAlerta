@@ -57,12 +57,11 @@ $('.calcular').on('click', function() {
     } else {
         alert(`Você está acima da média de entregas. Média: ${media}, Objetivo: ${objetivo}`);
     }
-    $('#my_date_picker1').val('');
-    $('#my_date_picker2').val('');
+    // $('#my_date_picker1').val('');
+    // $('#my_date_picker2').val('');
     $('#contratados').val('');
     $('#entregues').val('');
 });
-
 
 async function clipboardCopy() {
     let text = document.querySelector("#email").value;
