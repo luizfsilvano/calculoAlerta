@@ -52,3 +52,8 @@ Esse projeto é usado pela seguinte empresa:
 
 
 
+
+## Feedback
+
+Se você tiver algum feedback, por favor nos deixe saber por meio de luizfsilvano@gmail.com
+
