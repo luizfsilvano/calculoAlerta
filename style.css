@@ -220,3 +220,14 @@
     -webkit-transition: 0.1s;
     transition: 0.5s;
   }
+
+  #ds {
+    font-size: .8rem;
+    text-align: center;
+    margin: 0;
+    color: black;
+  }
+
+  .dark-text {
+    color: white;
+  }

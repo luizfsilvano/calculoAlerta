@@ -2,15 +2,15 @@
 $(document).ready(function() {
   
     $(function() {
-        $("#my_date_picker1").datepicker({});
+        $("#my_date_picker1").datepicker({dateFormat: 'dd/mm/yy'});
     });
 
     $(function() {
-        $("#my_date_picker2").datepicker({});
+        $("#my_date_picker2").datepicker({dateFormat: 'dd/mm/yy'});
     });
 
     $(function(){
-        $("#my_date_picker3").datepicker({});
+        $("#my_date_picker3").datepicker({dateFormat: 'dd/mm/yy'});
     });
 
     $('#my_date_picker1').change(function() {
@@ -55,7 +55,6 @@ $('.calcular').on('click', function() {
     }
     $('#my_date_picker1').val('');
     $('#my_date_picker2').val('');
-    $('#my_date_picker3').val('');
     $('#contratados').val('');
     $('#entregues').val('');
 });
