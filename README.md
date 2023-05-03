@@ -16,33 +16,9 @@ Adicionei campos específicos para serem removidos após enviar um calculo.
 
 Adicionei uma mudança de tema de claro para escuro e vice e versa.
 
+Números agoras são dividios entre centena, dezena e afins.
 
-## Rodando localmente
-
-Clone o projeto
-
-```bash
-  git clone https://github.com/luizfsilvano/calculoAlerta
-```
-
-Entre no diretório do projeto
-
-```bash
-  cd calculoAlerta
-```
-
-Instale as dependências
-
-```bash
-  npm install
-```
-
-Inicie o servidor
-
-```bash
-  npm run start
-```
-
+Adicionado prompt para copiar um modelo de e-mail de alerta.
 
 ## Usado por
 
@@ -51,9 +27,7 @@ Esse projeto é usado pela seguinte empresa:
 - ADFORCE
 
 
-
-
 ## Feedback
 
-Se você tiver algum feedback, por favor nos deixe saber por meio de luizfsilvano@gmail.com
+Se você tiver algum feedback, por favor me deixe saber por meio de luizfsilvano@gmail.com
 
